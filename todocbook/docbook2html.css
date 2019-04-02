@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Cousine);
+
+
+* {
+  font-family: 'EB Garamond', serif;
+}
+
+
+pre, .informaltable td {
+  font-family: 'Cousine', monospace;
+  font-size: medium;
+}
+
+
+body {
+  font-size: 130%;
+  line-height: 170%;
+  color: #222;
+  margin: 2em;
+  width: 600px;
+}
+
+
+a {
+  color: #0B486B;
+  text-decoration: none;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+}
+
+
+hr {
+  width: 30%;
+  border: none;
+  border-bottom: 5px dotted #222;
+}
+
+
+.informaltable table {
+  empty-cells: hide;
+  border: none;
+}
+
+.informaltable td {
+  background: #E8EBEF;
+  border: .5em solid #fff;
+  padding: .5em;
+  text-align: center;
+}
